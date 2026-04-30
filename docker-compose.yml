@@ -1,0 +1,8 @@
+services:
+  app:
+    build: .
+    container_name: torchic
+    volumes:
+      - .:/app
+    stdin_open: true
+    tty: true
